@@ -1,0 +1,57 @@
+{
+  "experiment_id": "exp_cross_group",
+  "slug": "cross_group",
+  "data_cutoff": "2026-11-10 00:00:00",
+  "observation_days": 7,
+  "expected_control_pct": 50,
+  "expected_treatment_pct": 50,
+  "funnel": {
+    "exposure_event_rows": 1837,
+    "unique_users_in_experiment": 1600,
+    "first_exposure_users": 1600,
+    "repeat_exposure_rows": 237,
+    "cross_group_users": 40,
+    "after_cross_group": 1560,
+    "mature_users": 1520,
+    "immature_users": 40,
+    "effect_sample_users": 1520,
+    "by_group": {
+      "control": {
+        "first_exposure": 800,
+        "after_cross_group": 780,
+        "mature": 760,
+        "immature": 20,
+        "cross_group": 20
+      },
+      "treatment": {
+        "first_exposure": 800,
+        "after_cross_group": 780,
+        "mature": 760,
+        "immature": 20,
+        "cross_group": 20
+      }
+    }
+  },
+  "orders": {
+    "raw_order_rows_for_effect_sample": 294,
+    "before_first_exposure_rows": 16,
+    "outside_window_rows": 12,
+    "in_window_rows": 266,
+    "duplicate_rows_removed": 16,
+    "counted_orders": 250,
+    "buyers": 198,
+    "zero_revenue_users": 1322
+  },
+  "conversion_truth": {
+    "control_converters": 76,
+    "control_n": 760,
+    "treatment_converters": 122,
+    "treatment_n": 760
+  },
+  "universe_counts": {
+    "control_total_users": 800,
+    "treatment_total_users": 800,
+    "control_immature_in_total": 20,
+    "treatment_immature_in_total": 20
+  }
+}

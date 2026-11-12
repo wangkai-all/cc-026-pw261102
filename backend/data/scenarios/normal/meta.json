@@ -1,0 +1,12 @@
+{
+  "experiment_id": "exp_normal",
+  "title": "正常分流",
+  "description": "50/50 分流，存在重复曝光、少量未成熟用户与应被排除的订单。",
+  "sort_order": 1,
+  "expected_control_pct": 50,
+  "expected_treatment_pct": 50,
+  "groups": {
+    "control": "对照组",
+    "treatment": "实验组"
+  }
+}

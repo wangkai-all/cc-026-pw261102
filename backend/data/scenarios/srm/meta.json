@@ -1,0 +1,12 @@
+{
+  "experiment_id": "exp_srm",
+  "title": "明显偏流",
+  "description": "标称 50/50，实际首次曝光人数约 700 : 1200，SRM 检验应报警并暂停结论。",
+  "sort_order": 2,
+  "expected_control_pct": 50,
+  "expected_treatment_pct": 50,
+  "groups": {
+    "control": "对照组",
+    "treatment": "实验组"
+  }
+}

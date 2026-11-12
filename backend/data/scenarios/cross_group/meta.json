@@ -1,0 +1,12 @@
+{
+  "experiment_id": "exp_cross_group",
+  "title": "跨组曝光",
+  "description": "40 名用户同时出现在两组，另列并从效果分析中排除；其余分流均衡。",
+  "sort_order": 3,
+  "expected_control_pct": 50,
+  "expected_treatment_pct": 50,
+  "groups": {
+    "control": "对照组",
+    "treatment": "实验组"
+  }
+}

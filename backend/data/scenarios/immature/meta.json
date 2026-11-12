@@ -1,0 +1,12 @@
+{
+  "experiment_id": "exp_immature",
+  "title": "观察期不足",
+  "description": "一半用户首次曝光不足 7 天，应进入未成熟区而不是算作未转化。",
+  "sort_order": 4,
+  "expected_control_pct": 50,
+  "expected_treatment_pct": 50,
+  "groups": {
+    "control": "对照组",
+    "treatment": "实验组"
+  }
+}
